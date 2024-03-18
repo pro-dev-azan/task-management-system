@@ -1,0 +1,41 @@
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin-bottom: 180px;
+    
+  }
+.login-form{
+    margin-top: 50px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-right: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form .error-message {
+    color: #FF0000;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
